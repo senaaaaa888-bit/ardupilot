@@ -97,8 +97,8 @@ void AP_Mission::init()
 
     // If Mission Clear bit is set then it should clear the mission, otherwise retain the mission.
     if (option_is_set(Option::CLEAR_ON_BOOT)) {
-        GCS_SEND_TEXT(MAV_SEVERITY_INFO, "Clearing Mission");
-        clear();
+     //   GCS_SEND_TEXT(MAV_SEVERITY_INFO, "Clearing Mission");
+     //   clear();
     }
 
     _last_change_time_ms = AP_HAL::millis();
