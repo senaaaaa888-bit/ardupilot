@@ -96,7 +96,7 @@ void AP_Mission::init()
     init_jump_tracking();
 
     // If Mission Clear bit is set then it should clear the mission, otherwise retain the mission.
-    if (option_is_set(Option::CLEAR_ON_BOOT)) {
+   // if (option_is_set(Option::CLEAR_ON_BOOT)) {
      //   GCS_SEND_TEXT(MAV_SEVERITY_INFO, "Clearing Mission");
      //   clear();
     }
